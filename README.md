@@ -28,7 +28,7 @@ This repository contains themes ported from the default and several other popula
 
 ### Ys Python
 
-![](images/2023-05-10-23-09-10.png)
+![](images/2023-05-10-23-10-54.png)
 
 <!-- ### **fish** — the friendly interactive shell
 
