@@ -23,6 +23,19 @@ This repository contains themes ported from the default and several other popula
    `echo 'source ~/.zsh/themes/python-themes/<theme_name>.zsh-theme' >> ~/.zshrc`
 3. Load theme immediately in current session: \
    `source ~/.zsh/themes/python-themes/<theme_name>.zsh-theme`
+#### Avoid disabling env twice
+
+For conda, run:
+
+```bash
+conda config --set changeps1 False
+```
+
+For venv, put this line into your `~/.zshrc`:
+
+```bash
+export VIRTUAL_ENV_DISABLE_PROMPT=1
+```
 
 ## Screenshots
 
